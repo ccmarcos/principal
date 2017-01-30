@@ -1,0 +1,87 @@
+body{
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  background-image: url(../images/logo2.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav{
+  background-color: #01579b;
+}
+
+#nav_wraper{
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+nav ul{
+  list-style-type: none;
+   padding: 0;
+   margin: 0;
+   position: relative;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+.alinear{
+  padding-left: 80px;
+}
+
+nav ul li ul li{
+  clear: both;
+}
+
+nav ul li a,visited{
+  color: #ccc;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+nav ul li a:hover{
+  color: #afacac;
+  text-decoration: none;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+  border: 1px solid #ccc;
+  border-top: 0;
+  margin-left: -5px;
+  min-width: 200px;
+}
+
+nav ul ul li{
+  display: block;
+}
+
+nav ul ul li a,visited{
+  color: black;
+}
+
+nav ul ul li a:hover{
+  color: red;
+}
+
+.salir{
+  float: right;
+}
+
+.img{
+  vertical-align: middle;
+  padding-left: 10px;
+}
