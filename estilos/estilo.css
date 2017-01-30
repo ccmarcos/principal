@@ -59,7 +59,7 @@ nav ul li:hover ul{
 nav ul ul {
   display: none;
   position: absolute;
-  border: 1px solid #ccc;
+  background-color:#ccc;
   border-top: 0;
   margin-left: -5px;
   min-width: 200px;
@@ -74,11 +74,14 @@ nav ul ul li a,visited{
 }
 
 nav ul ul li a:hover{
+  background-color: white;
+  border: 1px solid #ccc;
   color: red;
 }
 
 .salir{
   float: right;
+  font-size: 19px;
 }
 
 .img{
